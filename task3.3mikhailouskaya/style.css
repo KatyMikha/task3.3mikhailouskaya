@@ -1,0 +1,133 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+        max-width: 1146px;
+        margin: auto;
+    }
+    
+    header {
+        background: url(images/img.jpg) no-repeat;
+        background-size: cover;
+        padding-top: 120px;
+        padding-bottom: 138px;
+    }
+    
+    nav {
+        background-color: #003395;
+        padding-top: 27px;
+        padding-bottom: 26px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 18px;
+        margin-right: 62px;
+    }
+    
+    main {
+        padding-top: 57px;
+        padding-bottom: 62px;
+    }
+    
+    h1 {
+        color: #003395;
+        font-weight: 500;
+        font-size: 54px;
+        line-height: 63px;
+        margin-bottom: 27px;
+    }
+    
+    header p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    
+    .leftbox {
+        width: 754px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .leftbox a {
+        color: #003395;
+    }
+    
+    h2 {
+        padding-top: 13px;
+        padding-bottom: 15px;
+        border-bottom: #003395 2px solid;
+        border-top: #003395 2px solid;
+        color: #003395;
+    }
+    
+    .leftbox p {
+        color: #30233D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 16px;
+        padding-bottom: 34px;
+    }
+    
+    .rightbox {
+        width: 362px;
+        display: inline-block;
+        margin-left: 25px;
+        vertical-align: top;
+    }
+    
+    .rightbox div {
+        border: #003395 solid 2px;
+        margin-bottom: 55px;
+    }
+    
+    .rightbox div h3 {
+        padding: 14px 17px 14px 17px;
+        background-color: #24B0FF;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 163%;
+    }
+    
+    .rightbox div p {
+        padding: 19px 19px 24px 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        color: #30233D;
+    }
+    
+    ul {
+        padding-bottom: 24px;
+        list-style: none;
+    }
+    
+    li {
+        padding-bottom: 6px;
+        padding-top: 14px;
+        color: #30233D;
+        padding-left: 19px;
+    }
+    
+    footer {
+        background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+        color: #FCFCFC;
+        font-size: 12px;
+        line-height: 163%;
+        text-align: right;
+        padding-top: 45px;
+        padding-bottom: 83px;
+    }
